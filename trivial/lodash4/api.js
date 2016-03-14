@@ -3,7 +3,7 @@
  */
 var _ = require('lodash');
 
-var log = console.log;
+var log = console.log; // eslint-disable-line
 
 /**
  * array part
@@ -413,13 +413,13 @@ log(
     f1();
 })();
 log(
-    _.map(['6', '8', '10'], _.ary(parseInt, 1)), (_.bind(function(v, v2) {
-        return v + v2 + this.c
+    _.map(['6', '8', '10'], _.ary(parseInt, 1)), (_.bind(function (v, v2) {
+        return v + v2 + this.c;
     }, {
         c: 10
     }, 100))(9),
 
-    (_.flip(function() {
+    (_.flip(function () {
         return _.toArray(arguments);
     }))('a', 'b', 'c')
 );
