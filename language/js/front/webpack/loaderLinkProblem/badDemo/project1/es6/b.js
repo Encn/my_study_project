@@ -1,0 +1,1 @@
+import { a } from 'project2/a';

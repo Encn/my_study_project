@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo2</title>
+	<link rel="stylesheet" href="demo2.css">
+</head>
+<body>
+	<div id="ani"></div>
+
+	<script>
+		setTimeout(function(){
+			console.log("stop animation");
+			var aniNode = document.getElementById("ani");
+			aniNode.style["-webkit-animation-play-state"] = "paused";
+		},4000);
+
+		setTimeout(function(){
+			console.log("continue animation");
+			var aniNode = document.getElementById("ani");
+			aniNode.style["-webkit-animation-play-state"] = "running";
+		},8000);
+	</script>
+</body>
+</html>

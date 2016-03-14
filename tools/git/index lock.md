@@ -1,0 +1,1 @@
+delete `./git/index.lock` file and try to commit again.

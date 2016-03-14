@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo3</title>
+</head>
+<body>
+	<script src="../build/react.js"></script>
+	<script src="../build/JSXTransformer.js"></script>
+	<div id="example"></div>
+	<script type="text/jsx">
+		// react support: insert varible in template directly, if it's a array, expand it.
+		var arr = [<h1>hello world!</h1> , <h2>React is awesome</h2>];
+		React.render(
+			<div>{arr}</div>,
+			document.getElementById('example')
+			)
+	</script>
+</body>
+</html>

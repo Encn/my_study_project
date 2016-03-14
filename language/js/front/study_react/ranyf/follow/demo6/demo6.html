@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo6</title>
+</head>
+<body>
+	<div id="example"></div>
+	<script src="../build/react.js"></script>
+	<script src="../build/JSXTransformer.js"></script>
+	<script type="text/jsx">
+	/**
+	 * ref
+	 * after insert to dom, findDOMNode become useful.
+	 */
+		var MyComponent = React.createClass({
+			handleClick:function(){
+				React.findDOMNode(this.refs.myTextInput).focus();
+			},
+			render:function(){
+				return (
+					<div>
+						<input type="text" ref="myTextInput"/>
+						<input type="button" value="Focus the text input" onClick = {this.handleClick}/>
+					</div>
+					);
+			}
+		});
+
+		React.render(
+			<MyComponent/>,
+			document.getElementById('example')
+			);
+	</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo4</title>
+</head>
+<body>
+	<script src="../build/react.js"></script>
+	<script src="../build/JSXTransformer.js"></script>
+	<div id="example"></div>
+	<script type="text/jsx">
+	    // component
+	    
+		var HelloMessage = React.createClass({
+			render: function(){
+				return <h1>Hello {this.props.name}</h1>
+			}
+		});
+
+		React.render(
+			<HelloMessage name="John"/>,
+			document.getElementById('example')
+			)
+
+	</script>
+</body>
+</html>

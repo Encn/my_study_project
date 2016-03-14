@@ -1,0 +1,12 @@
+```
+shutdown
+```
+
+
+```
+poweroff
+```
+
+```
+reboot
+```
