@@ -1,5 +1,4 @@
-# study lambda
-
+# study lambda 
 ## reason
 
 Leibniz had as ideal the following.
@@ -33,6 +32,8 @@ The normal form obtained is independent of the order of evaluation of subterms.
 
 ## Definition
 
+### λ-terms
+
 The set of λ-terms (notation A) is build up from an infinite set of variables V = {v, v', v'', ...} using application and (function) abstraction.
 
 ```
@@ -45,57 +46,127 @@ M ∈ A, x ∈ V ⇒  (λxM) ∈ A
 
 ```
 
-## operations of λ-calculus
+In BF-form
 
-- application
+```
+variable ::= 'v' | variable '''
 
-`F ∙ A   or FA`
+λ-term ::= variable | '(' λ-term λ-term ')' | '(λ' variable λ-term ')'
 
-Consider F as algorithm applied to the data A considered as input.
+```
 
-type-free: it is allowed to consider expressions like FF, that F applied to itself.
+### convention
 
-- abstraction
+(i) x, y, z,... denote arbitrary variables; M, N, L,... denote arbitrary λ-terms. Outermost parenthese are not written.
 
-If M ≡ M[x] is an expression contaning ('depending on') x, then λx.M[x] denotes the function x -> M[x].
+(ii) M ≡ N denotes that M and N are the same term or can be obtained from each other by renaming bound varaibles.
 
-eg: (λx.2∙x + 1)3 = 2 ∙ 3 + 1 = 7
-λx.2 ∙ x + 1 denotes the function x -> 2 ∙ x + 1
+Eg: 
 
-In general we have (λx.M[x])N = M[N]
+```
+(λxy)z ≡ (λxy)z
 
-`(λx.M)N = M[x:=N]`
+(λxx)z ≡ (λyy)z  // renaming bound varaible x to y
 
-call [x:=N] substitution
+(λxx)z ≢ z
 
-## Free and bound variables
+(λxx)z ≢ (λxy)z
 
-Substitution in only performed in the free variables.
+```
 
-`yx(λx.x)[x:=N] ≡ yN(λx.x)`
+(iii) We use the abbreviations
 
-`(λx.x)a = (λy.y)a = a`
+```
+FM₁...Mn ≡ (..((FM₁)M₂)...Mn)
+```
 
-## Functions of more arguments
+and
 
-curring: Functions of several arguments can be obtained by iteration of application.
+```
+λx₁...xn.M ≡ λx₁(λx₂(...(λxn(M))...))
+```
 
-eg: f(x, y)
-    Fx = λy.f(x, y) 
-    F = λx.Fx
-so, (Fx)y = Fxy = f(x, y)
+eg: λx.yx is (λx(yx))
 
-FM₁M₂...Mn denotes (..((FM₁)M₂)...Mn)
+### free variables
 
-λx₁...xn.f(x1,...,xn) denotes λx₁.(λx₂.(...(λxn.f(x₁,...,xn))..))
+The set of free variables of M, notation FV(M), is defined as:
 
-for n arguments we have
+```
+FV(x) = {x};
 
-    (λx₁...xn.f(x₁,...,xn))x1...xn = f(x₁, x₂, ..., xn)
+FV(MN) = FV(M) ∪ FV(N)
 
-Using vector to state:
+FV(λx.M) = FV(M) - {x}
+```
 
-    (λX.f[X])N = f(N)
+A variable in M is bound if it is not free.
+
+### combinator (close λ-term)
+
+if FV(M) = ∅, M is a closed λ-term (or combinator)
+
+the set of closed λ-items is denoted by A°
+
+### substituting
+
+The result of substituting N for the free occurences of x in M, notation M[x := N], is defined as follows:
+
+```
+x[x := N] ≡ N;
+
+y[x := N] ≡ y, if x ≢ y;
+
+(M₁M₂)[x := N] ≡ (M₁[x := N])(M₂[x := N])
+
+(λy.M)[x := N] ≡ λy.(M[x := N])
+
+```
+
+(iii) We use the abbreviations
+
+```
+FM₁...Mn ≡ (..((FM₁)M₂)...Mn)
+```
+
+and
+
+```
+λx₁...xn.M ≡ λx₁(λx₂(...(λxn(M))...))
+```
+
+eg: λx.yx is (λx(yx))
+
+### variable convention
+
+if M₁,...,Mn occur in a certain mathematical context, then in these terms all bound variable are chosen to be different from the free variables.
+
+### λ-calculus (definition)
+
+(i) the principal axiom scheme
+    (λx.M)N = M[x := N]
+
+(ii) Equality 
+
+    M = M;
+    M = N ⇒  N = M;
+    M = N, N = L ⇒  M = L;
+
+    compatibility rules
+
+    M = M' ⇒  MZ = M'Z;
+    M = M' ⇒  ZM = ZM';
+    M = M' ⇒  λx.M = λx.M'
+
+(iii) If M = N is provable in the λ-calculus, then we sometimes write λ ⊢ M = N 
+
+### remark
+
+`λx.M = λy.M[ x:= y]`
+
+## rules
+
+- LEMMA. λ ⊢ (λx₁...xn.M)X₁...Xn = M[x₁ := X₁]...[xn := Xn]
 
 ## books
 
