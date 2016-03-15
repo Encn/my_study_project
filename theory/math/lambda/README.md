@@ -1,4 +1,5 @@
 # study lambda 
+
 ## reason
 
 Leibniz had as ideal the following.
@@ -6,29 +7,11 @@ Leibniz had as ideal the following.
 
 (2) find a decision method to solve all the problems stated in the universal language.
 
-The point (2) became known as the Entscheidungsproblem. In 1936 the Entscheidungsproblem was solved in the negative independentlyby Alonzo Church and Alan Turing.
+The point (2) became known as the Entscheidungsproblem. In 1936 the Entscheidungsproblem was solved in the negative independently by Alonzo Church and Alan Turing.
 
 (1) Church invented a formal system called the lambda calculus and define the notion of computable function via this system.
 
 (2) Turing invented a class of machines and defined the notion of computable functions.
-
-## Reduciton
-
-E[P] -> E[P']
-
-E: expression of functional program (algorithm and input). E is subject to some rewrite rules.
-
-Reduction: replacing a part P of E by another expression P' according to the given rewrite rules.
-
-P -> P' is a rewrite rule.
-
-output: when result expression has no more parts that can be rewritten. This so called normal form E' of E.
-
-combinators: function given by some rewrite rules.
-
-## Church-Rosser property
-
-The normal form obtained is independent of the order of evaluation of subterms.
 
 ## Definition
 
@@ -167,6 +150,12 @@ if M₁,...,Mn occur in a certain mathematical context, then in these terms all 
 ## rules
 
 - LEMMA. λ ⊢ (λx₁...xn.M)X₁...Xn = M[x₁ := X₁]...[xn := Xn]
+
+## Church-Rosser property
+
+The normal form obtained is independent of the order of evaluation of subterms.
+
+
 
 ## books
 
