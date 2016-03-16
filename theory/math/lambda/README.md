@@ -106,20 +106,6 @@ y[x := N] ≡ y, if x ≢ y;
 
 ```
 
-(iii) We use the abbreviations
-
-```
-FM₁...Mn ≡ (..((FM₁)M₂)...Mn)
-```
-
-and
-
-```
-λx₁...xn.M ≡ λx₁(λx₂(...(λxn(M))...))
-```
-
-eg: λx.yx is (λx(yx))
-
 ### variable convention
 
 if M₁,...,Mn occur in a certain mathematical context, then in these terms all bound variable are chosen to be different from the free variables.
@@ -154,8 +140,6 @@ if M₁,...,Mn occur in a certain mathematical context, then in these terms all 
 ## Church-Rosser property
 
 The normal form obtained is independent of the order of evaluation of subterms.
-
-
 
 ## books
 
