@@ -137,6 +137,31 @@ if M₁,...,Mn occur in a certain mathematical context, then in these terms all 
 
 - LEMMA. λ ⊢ (λx₁...xn.M)X₁...Xn = M[x₁ := X₁]...[xn := Xn]
 
+- some combinators
+
+```
+I ≡ λx.x
+K ≡ λxy.x
+K* ≡ λxy.y
+S ≡ λxyz.xz(yz)
+```
+
+- FIXEDPOINT THEOREM
+
+(i) ∀F ∃X FX = X
+(ii) There is a fixed point combinator
+        Y ≡ λf.(λx.f(xx))(λx.f(xx))
+     such that
+        ∀F F(YF) = YF
+
+prove: (i) Define W ≡ λx.F(xx) and X ≡ WW.
+    X ≡ WW ≡ (λx.F(xx))W = F(WW) ≡ FX.
+(ii) YF = (λx.F(xx))(λx.F(xx)), according to prove (i) we know, F(YF) = YF
+
+- definition
+
+(i) 
+
 ## Church-Rosser property
 
 The normal form obtained is independent of the order of evaluation of subterms.
