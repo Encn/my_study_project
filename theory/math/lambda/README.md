@@ -160,7 +160,27 @@ prove: (i) Define W ≡ λx.F(xx) and X ≡ WW.
 
 - definition
 
-(i) 
+(i) Fⁿ(M) with F ∈ A and n ∈ N is deifned inductively as follows.
+        F⁰(M) ≡ M;
+        Fⁿ⁺¹(M) ≡ F(Fⁿ(M)).
+(ii) the Church numerals C₀, C₁, C₂... are defined by
+        Cn ≡ λfx.fⁿ(x).
+
+- proposition
+
+Define
+
+A+ ≡ λxypq.xp(ypq)
+A∗ ≡ λxyz.x(yz)
+Aexp ≡ λxy.yz
+
+Then one has for all n, m ∈ N
+
+(i) A+CnCm = Cn+m
+(ii) A∗CnCm = Cn∗m
+(iii) AexpCmCn = C(mⁿ), except for m = 0
+
+### TODO page 13
 
 ## Church-Rosser property
 
