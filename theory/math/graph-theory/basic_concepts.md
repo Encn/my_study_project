@@ -92,3 +92,4 @@ Graph G = (V, E, ψ), u ≠ v, u, v ∈ V, the following are equivalent:
 
 (c) There is a path from u to v
 
+## restriction ψ' of ψ
