@@ -93,3 +93,41 @@ Graph G = (V, E, ψ), u ≠ v, u, v ∈ V, the following are equivalent:
 (c) There is a path from u to v
 
 ## restriction ψ' of ψ
+
+ψ : X -> Y, ψ': X' -> Y',
+(i) X' ⊆ X
+(ii) ∀ x ∈ X', ψ'(x) = ψ(x)
+
+## subgraph
+
+G = (V, E, ψ), G' = (V', E', ψ'), G' is a subgraph of G when:
+
+(i) V' ⊆ V
+(ii) E' ⊆ E
+(iii) ψ' is a restriction of ψ
+
+## induced by edge set
+
+G = (V, E, ψ), G' = (V', E', ψ')
+(i) E' ⊆ E
+(ii) V' = U ψ(x), x ∈ E'
+
+G' is the subgraph induced by the edge set E'
+
+## circuit and cycle
+
+G = (V, E, ψ), e₁, ..., eκ be a trail with vertex sequence a₁, ..., aκ, a₁. G' of G induced by the set of edges {e₁, ..., eκ}. G' is called a circuit of G.
+
+If the only repeated verticles on the trail are a₁ (the start and end), then the circuit is called a simple circuit or cycle.
+
+Similarly, directed circuit, directed cycle.
+
+## theorem (Cycles and multiple paths)
+
+Twe vertices u ≠ v are on a cycle of G if and only if there are at least two paths from u to v that have no vertices in common except the endpoints u and v.
+
+## connected graph
+
+G = (V, E, ψ), u, v
+(i) ∀ u, v ∈ V, u ≠ v
+(ii) 
