@@ -93,3 +93,76 @@ Eulerian circuit: circuit C = (V', E' , ψ') in G, E' = E.
 ## Hamitonian cycle
 
 G = (V, E, ψ), a circle in G is a Hamiltonian cycle if every elements of V is a vertex of the cycle.
+
+## dᵢn(U) dout(U) 
+
+directed graph D = (V, E), 
+dᵢn(U) = |Sᵢ|, Sᵢ = {(w, u) | u ∈ U, w ∉ U, (w, u) ∈ E}
+dout(U) = |Sₒ|, Sₒ = {(u, w) | u ∈ U, w ∉ U, (u, w) ∈ E}
+
+## tree 
+
+If G is a connected graph without any cycles then G is called a tree.
+
+## theorem
+
+G = (V, E)
+If G is a connected graph, the follwing are equivalent.
+(a) G is a tree
+(b) G has no cycles
+(c) u ≠ v, u, v ∈ V, there is only one path from u to v
+(d) removing any edge from G gives a graph which is not connected.
+(e) the number of verticles of G is one more than the number of edges of G.
+
+## forest
+
+A forest is a graph all of whose connected components are trees.
+
+## rooted graph
+
+A pair (G, v), consisting of a graph G and a special vertex v, is called a rooted graph with root v.
+
+## Parent child sibling and leaf
+
+Let (T, r) be a rooted tree. T = (V, E), w ∈ V, w ≠ r,
+let r=v₀,v₁,...,vι,vι₊₁=w, be the list of vertices on the unique path from r to w. We call vι the parent of w and call w a child of vι.
+Vertices  with the same parent are siblings. A vertex with no children is a leaf.
+
+## rooted plane tree
+
+Let (T, r) be a rooted tree. For each vertex, order the children of the vertex. The result is a rooted plane tree (RP-tree\ordered tree).
+
+## spanning tree
+
+A spanning tree of a (simple) graph G = (V, E) is a subgraph T = (V, E').
+
+## weights in a graph
+
+G = (V, E), λ: E → R⁺, we called λ(e) the weight of the edge e.
+
+H = (V', E') is a subgraph of G, the λ(H),is the sum of λ(e') over all e' ∈ E'
+
+minimum weight spanning tree for a connected graph G is a spanning tree such that λ(T) ≤ λ(T') whenever T' is another spanning tree.
+
+## theorem (Minimum weight spanning tree: Prim's algorithm)
+
+G = (V, E), λ: E → R⁺, 
+
+1. start: let E' = ф, V' = {v₀}, v₀ ∈ V
+
+2. possible edges: let F = { {x,y} | x ∈ V', y ∉ V', y ∈ V}. If F = ф, stop.
+
+3. chose edge greedily: let f be such that λ(f) is a minimum over all f ∈ F. Replace V' with V' U f and E' with E' U {f}. Go to step2.
+
+## Lineal or depth-first spanning tree
+
+rooted tree (T, r), T = (V, E), x, y ∈ V, if x is on the path connecting r to y, we say that y is a decendant of x. If one of u and v is a descendant of the other, we say that {u, v} is a lineal pair.
+
+A lineal spanning tree or depth-first spanning tree of a connected graph G = (V, E) is a rooted spanning tree of G such that each edge {u, v} of G is a lineal pair.
+
+## some hard problems
+
+- Coloring problem
+    For any c > 2, devise an algorithm whose input can be any simple graph and whose ouput answers the question "Can the graph be properly colored in c colors?"
+
+- Traveling salesman problem
