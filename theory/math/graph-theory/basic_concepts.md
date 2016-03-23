@@ -160,9 +160,18 @@ rooted tree (T, r), T = (V, E), x, y ∈ V, if x is on the path connecting r to 
 
 A lineal spanning tree or depth-first spanning tree of a connected graph G = (V, E) is a rooted spanning tree of G such that each edge {u, v} of G is a lineal pair.
 
-## some hard problems
+## NP-complete problems
 
 - Coloring problem
+
     For any c > 2, devise an algorithm whose input can be any simple graph and whose ouput answers the question "Can the graph be properly colored in c colors?"
 
 - Traveling salesman problem
+
+    For any B, devise an algorithm whose input can be any n > 0 and any real valued edge labeling, λ: P₂(S) -> R, |S| = n, for Kn, the complete graph on n vertices. The algorithm must answer the question "Is there a cycle through all n vertices with cost B or less".
+
+- Clique problem
+
+    Given a simple graph G = (V, E) and an integer s, is there a subset S ⊆ V, |S| = s, whose induced subgraph is the complete graph on S.
+
+## NP-hard NP-easy NP-complete
