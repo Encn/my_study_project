@@ -133,3 +133,5 @@ The special subforests of T is the forest F(v), where v ∈ keyroots(T).
 Lemma 2 for each node v ∈ V(T), F(v) is a relevant subproblem.
 
 For a node v ∈ V(T) define th collapsed depth of v, cdepth(v), as the number of keyroot ancestors of v. Also, define cdepth(T) as the maximum collapsed depth of all nodes v ∈ V(T)
+
+Lemma3 For an ordered tree T the number of relevant subproblems, with respect to the keyroots is bounded by O(|T|cdepth(T))
