@@ -115,5 +115,21 @@ We have:
 δ(Θ, Θ) = 0
 δ(F₁, Θ) = δ(F₁ - v, Θ) + γ(v → λ)
 δ(Θ, F₂) = δ(Θ, F₂ - w) + γ(λ → w)
-
 δ(F₁, F₂) = min {δ(F₁ - v, F₂) + γ(v → λ), δ(F₁, F₂ - w) + γ(λ → w), δ(F₁(v), F₂(w)) + δ(F₁ - T₁(v), F₂ - T₂(w)) + γ(v → w)}
+
+prove:
+case1: v is not touched by a line
+case2: w is not touched by a line
+case3: v, w are both touched by lines. Assumes (v, h) and (k, w) are in M. Because v and w are tje rightmost roots, this implies that (v, w) ∈ M.
+
+### Zhang and Shasha's algorithm
+
+Define the keyroots of a rooted, ordered tree T as follows:
+
+keyroots(T) = {root(T)} ∪ {v ∈ V(T) | v has a left sibling}
+
+The special subforests of T is the forest F(v), where v ∈ keyroots(T).
+
+Lemma 2 for each node v ∈ V(T), F(v) is a relevant subproblem.
+
+For a node v ∈ V(T) define th collapsed depth of v, cdepth(v), as the number of keyroot ancestors of v. Also, define cdepth(T) as the maximum collapsed depth of all nodes v ∈ V(T)
