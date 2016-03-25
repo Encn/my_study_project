@@ -65,3 +65,55 @@ label set ∑. let λ ∉ ∑, ∑λ = ∑ U λ. We define a cost function, γ: 
 (i) γ(l1, l2) ≥ 0, γ(l1, l1) = 0
 (ii) γ(l1, l2) = γ(l2, l1)
 (iii) γ(l1, l3) ≤ γ(l1, l2) + γ(l2, l3)
+
+tree edit distance denoted by δ(T₁, T₂)
+
+## Tree Edit Distance
+
+Represent edit operation by (l₁→l₂), where (l₁, l₂) ∈ ∑λ x ∑λ - (λ, λ)
+
+The operation is a relabeling if l₁ ≠ λ and l₂ ≠ λ, a deletion if l₂ = λ, and an insertion if l₁ = λ.
+
+We extend the notation such that (v → w) for nodes v and w denotes (label(v) → label(w)).
+
+We define the cost of an edit operation by setting γ(l₁ → l₂) = γ(l₁, l₂), the cost of the sequence S = s₁, s₂,... sκ by γ(S) = ∑ γ(si)
+
+δ(T₁, T₂) = min{γ(S) | S is a sequence of operations transforming T₁ into T₂}
+
+### edit distance mapping
+
+iff: if and only if
+
+Define (M, T₁, T₂) to be an ordered edit distance mapping from T₁ to T₂, if M ⊆ V(T₁) x V(T₂) and for any pair (v₁, w₁), (v₂, w₂) ∈ M,
+
+1. v₁ = v₂, iff w₁ = w₂. (one-to-one condition)
+2. v₁ is an ancestor of v₂ iff w₁ is an ancestor of w₂. (ancestor condition)
+3. v₁ is to the left of v₂ iff w₂ is to the left of w₂. (sibling condition)
+
+We say that a node v in T₁ or T₂ is touched by a line in M if v occurs in some pair in M.
+
+Let N₁, N₂ be the set of nodes in T₁ and T₂ repectively not touched by any lines in M. The cost of M is given by:
+
+γ(M) = ∑ γ(v → w), (v, w) ∈ M + ∑ γ(v → λ), v ∈ N₁ + ∑ γ(λ → w), w ∈ N₂
+
+compose mapping
+
+M₁ ∘ M₂ = {(v, w) | ∃ u ∈ V(T₂), such that (v, u) ∈ M₁ and (u, w) ∈ M₂}
+
+δ(T₁, T₂) = min{γ(M) | (M, T₁, T₂) is an edit distance mapping}
+
+## General ordered edit distance
+
+### a simple algorithm
+
+Let F be a forest and v be a node in F. We denote by F - v the forest obtained by deleting v from F. Define F - T(v) as the forest obtained by deleting v and all descendants of v.
+
+- Lemma 1
+
+Let F₁ and F₂ be ordered forest and γ be a metric cost function defined on labels. Let v and w be the rightmost (if any) roots of the trees in F₁ and F₂ repectively.
+We have:
+δ(Θ, Θ) = 0
+δ(F₁, Θ) = δ(F₁ - v, Θ) + γ(v → λ)
+δ(Θ, F₂) = δ(Θ, F₂ - w) + γ(λ → w)
+
+δ(F₁, F₂) = min {δ(F₁ - v, F₂) + γ(v → λ), δ(F₁, F₂ - w) + γ(λ → w), δ(F₁(v), F₂(w)) + δ(F₁ - T₁(v), F₂ - T₂(w)) + γ(v → w)}

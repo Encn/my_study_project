@@ -10,6 +10,8 @@ rm **/.gitignore
 
 docker pull [options] NAME[:TAG|@DIGEST]
 
+docker build -t name .
+
 ## docker run bash
 
 docker run -i -t --rm=true centos /bin/bash
