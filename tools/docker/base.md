@@ -25,3 +25,8 @@ docker commit containerId repository/tag
 ## docker cp
 
 docker cp .ssh/ 69eb007d79a6:/root
+
+##One liner to stop / remove all of Docker containers
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
