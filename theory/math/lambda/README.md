@@ -106,20 +106,6 @@ y[x := N] ≡ y, if x ≢ y;
 
 ```
 
-(iii) We use the abbreviations
-
-```
-FM₁...Mn ≡ (..((FM₁)M₂)...Mn)
-```
-
-and
-
-```
-λx₁...xn.M ≡ λx₁(λx₂(...(λxn(M))...))
-```
-
-eg: λx.yx is (λx(yx))
-
 ### variable convention
 
 if M₁,...,Mn occur in a certain mathematical context, then in these terms all bound variable are chosen to be different from the free variables.
@@ -151,11 +137,54 @@ if M₁,...,Mn occur in a certain mathematical context, then in these terms all 
 
 - LEMMA. λ ⊢ (λx₁...xn.M)X₁...Xn = M[x₁ := X₁]...[xn := Xn]
 
+- some combinators
+
+```
+I ≡ λx.x
+K ≡ λxy.x
+K* ≡ λxy.y
+S ≡ λxyz.xz(yz)
+```
+
+- FIXEDPOINT THEOREM
+
+(i) ∀F ∃X FX = X
+(ii) There is a fixed point combinator
+        Y ≡ λf.(λx.f(xx))(λx.f(xx))
+     such that
+        ∀F F(YF) = YF
+
+prove: (i) Define W ≡ λx.F(xx) and X ≡ WW.
+    X ≡ WW ≡ (λx.F(xx))W = F(WW) ≡ FX.
+(ii) YF = (λx.F(xx))(λx.F(xx)), according to prove (i) we know, F(YF) = YF
+
+- definition
+
+(i) Fⁿ(M) with F ∈ A and n ∈ N is deifned inductively as follows.
+        F⁰(M) ≡ M;
+        Fⁿ⁺¹(M) ≡ F(Fⁿ(M)).
+(ii) the Church numerals C₀, C₁, C₂... are defined by
+        Cn ≡ λfx.fⁿ(x).
+
+- proposition
+
+Define
+
+A+ ≡ λxypq.xp(ypq)
+A∗ ≡ λxyz.x(yz)
+Aexp ≡ λxy.yz
+
+Then one has for all n, m ∈ N
+
+(i) A+CnCm = Cn+m
+(ii) A∗CnCm = Cn∗m
+(iii) AexpCmCn = C(mⁿ), except for m = 0
+
+### TODO page 13
+
 ## Church-Rosser property
 
 The normal form obtained is independent of the order of evaluation of subterms.
-
-
 
 ## books
 
