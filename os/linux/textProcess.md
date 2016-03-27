@@ -15,6 +15,8 @@ find . -name "*.txt" -o -name "*.pdf"
 // only display dir
 find . -type d 
 
+find . -mtime +1  
+
 //find dir,size > 2k 
 find . -type f -size +2k 
 
