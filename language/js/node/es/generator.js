@@ -1,7 +1,8 @@
+let log = console.log; // eslint-disable-line
 //
-(() => {
-    console.log('--------------demo1-------------');
-    function* idMaker() {
+{
+    log('--------------demo1-------------');
+    function* idMaker () {
         var index = 0;
         while(index < 3)
             yield index++;
@@ -9,16 +10,16 @@
 
     var gen = idMaker();
 
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-})();
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+}
 
 //
-(() => {
-    console.log('--------------demo2-------------');
-    function* idMaker() {
+{
+    log('--------------demo2-------------');
+    function* idMaker () {
         var index = 0;
         while(index < 3)
             yield index++;
@@ -27,28 +28,28 @@
     var gen = idMaker();
 
     for(var n of gen) {
-        console.log(n);
+        log(n);
     }
-})();
+}
 
 // for ... of
-(() => {
-    console.log('--------------demo3-------------');
-    let a = [11, 12, 13]
+{
+    log('--------------demo3-------------');
+    let a = [11, 12, 13];
 
     for(var n of a) {
-        console.log(n);
+        log(n);
     }
-})();
+}
 
 // for ... of
-(() => {
-    console.log('--------------demo4-------------');
+{
+    log('--------------demo4-------------');
     let a = {
-        [Symbol.iterator]() {
+        [Symbol.iterator] () {
             let count = 0;
             return {
-                next() {
+                next () {
                     count ++;
                     if(count < 10)
                         return { done: false, value: count * count };
@@ -56,18 +57,18 @@
                         return { done: true, value: undefined };
                     }
                 }
-            }
+            };
         }
-    }
+    };
 
     for(var n of a) {
-        console.log(n);
+        log(n);
     }
-})();
+}
 
 // yield*
-(() => {
-    console.log('--------------demo5-------------');
+{
+    log('--------------demo5-------------');
     function * anotherGenerator (i) {
         yield i + 1;
         yield i + 2;
@@ -89,18 +90,18 @@
     // for(var n of gen) {
     //     console.log(n);
     // }
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-    console.log(gen.next());
-})();
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+    log(gen.next());
+}
 
 // yield value
-(() => {
-    console.log('--------------demo6-------------');
+{
+    log('--------------demo6-------------');
 
     function * generator (i) {
         var x = yield i;
@@ -111,16 +112,16 @@
 
     var it = generator(10);
 
-    console.log(it.next());
-    console.log(it.next(20)); // x -> 20
-    console.log(it.next(50)); // x -> 20, y -> 50
-})();
+    log(it.next());
+    log(it.next(20)); // x -> 20
+    log(it.next(50)); // x -> 20, y -> 50
+}
 
 // for of 2
-(() => {
-    console.log('--------------demo7-------------');
+{
+    log('--------------demo7-------------');
 
-    function *foo() {
+    function *foo () {
         yield 1;
         yield 2;
         yield 3;
@@ -130,53 +131,53 @@
     }
 
     for (var v of foo()) {
-        console.log( v );
+        log( v );
     }
     // 1 2 3 4 5
 
-    console.log( v ); // still `5`, not `6` :(
-})();
+    log( v ); // still `5`, not `6` :(
+}
 
 
 // try catch 0
-(() => {
-    console.log('--------------demo8-------------');
+{
+    log('--------------demo8-------------');
 
-    function *foo() {
+    function *foo () {
         try {
             var x = yield 3;
-            console.log('x: ' + x);
+            log('x: ' + x);
         }
         catch(err) {
-            console.log('foo ' + err);
+            log('foo ' + err);
         }
     }
 
     var it = foo();
-    var res = it.next();
+    it.next();
 
     it.throw('oops!');
-})();
+}
 
 // try catch 1
-(() => {
-    console.log('--------------demo9-------------');
+{
+    log('--------------demo9-------------');
 
-    function *foo() {}
+    function *foo () {}
 
     var it = foo();
     try {
         it.throw('oops!');
     } catch (err) {
-        console.log(err);
+        log(err);
     }
-})();
+}
 
 // try catch 2
-(() => {
-    console.log('--------------demo10-------------');
+{
+    log('--------------demo10-------------');
 
-    function *foo() {
+    function *foo () {
         var x = yield 3;
         var y = x.toUpperCase();
         yield y;
@@ -185,28 +186,28 @@
     var it = foo();
 
     it.next();
-    
+
     try {
         it.next(42);
     } catch (err) {
-        console.log('catched::::: ' + err);
+        log('catched::::: ' + err);
     }
-})();
+}
 
 // simplest async
-(() => {
+{
     // wrapper
     let sleep = (time) => {
-        setTimeout(() => it.next(100), time)
-    }
+        setTimeout(() => it.next(100), time);
+    };
     var foo = function*() {
-        console.log('--------------demo11-------------');
+        log('--------------demo11-------------');
         let r1 = yield sleep(10);
-        console.log(r1);
+        log(r1);
         return r1;
-    }
+    };
 
     var it = foo();
 
-    it.next()
-})();
+    it.next();
+}

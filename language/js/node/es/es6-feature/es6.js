@@ -241,3 +241,31 @@ let log = console.log; //eslint-disable-line
         log(i);
     }
 }
+
+// Map/Set & WeakSet/WeakMap
+{
+    let s = new Set();
+    s.add('hello').add('goodbye').add('hello');
+    log(s.size);
+    log(s.has('hello'));
+    for(let key of s.values()) {
+        log(key);
+    }
+
+    let m = new Map();
+    m.set('hello', 42);
+    m.set(s, 34);
+    log(m.get(s));
+    log(m.size);
+    for(let [key, val] of m.entries()) {
+        log(key + '=' + val);
+    }
+
+    let obj = {};
+    let weakSet = new WeakSet(); // memory-leak-free
+    weakSet.add(obj);
+    log(weakSet.has(obj));
+    // weakSet.delete(obj);
+    obj = null;
+    log(weakSet.has(obj));
+}
