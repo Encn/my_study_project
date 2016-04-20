@@ -142,6 +142,23 @@ struct StudentType {
 
 struct StudentType boy, girl;
 
+void printStruct (void) {
+    boy.num = 200;
+    struct StudentType student = {
+        11,
+        "ddchen",
+        "m",
+        100,
+        {1990, 8, 25}
+    };
+    printf("num:%d\n", student.num);
+
+    struct StudentType students[3] = {
+        {12, "kino", "f", 100},
+        {12, "kino", "f", 100}
+    };
+}
+
 int main (void) {
     printf("%d\n", 01777);// eight digit hex
     printf("%d\n", 0x1777); // 16 digit hex
@@ -160,5 +177,6 @@ int main (void) {
     printf("%c\n", (char)300324);
     variableScope();
     pointer();
+    printStruct();
     return 0;
 }
