@@ -272,6 +272,58 @@ let log = console.log; //eslint-disable-line
 
 // typed array
 {
-    let buffer = new ArrayBuffer();
-    log(buffer);
+    let buffer = new ArrayBuffer(24);
+    let id = new Uint32Array(buffer, 0, 1);
+    id[0] = 7;
+    let username = new Uint8Array(buffer, 4, 16);
+    username = 'ddchen';
+    let amountDue = new Float32Array(buffer, 20, 1);
+    amountDue = 42.0;
+    log(id);
+    log(username);
+    log(amountDue);
+}
+
+// new built-in methods
+{
+    let dst = {};
+    Object.assign(dst, {a: 1}, {b: 2});
+    log(dst);
+    log([1, 2, 3, 4].find(x => x > 3));
+    log('foo'.repeat(3));
+    log('hello'.startsWith('ello', 1));
+    log('hello'.endsWith('hell', 4));
+    log('hello'.includes('ell'));
+    log('hello'.includes('ell', 1));
+
+    log(Number.isNaN(42));
+    log(Number.isFinite(Infinity));
+    log(Number.isSafeInteger(9007199254740992));
+    log(Math.abs((0.1 + 0.2) - 0.3) < Number.EPSILON);
+    log(Math.trunc(42.7));
+    log(Math.trunc(-42.7));
+}
+
+// Promise
+
+// meta-programming
+{
+/*
+    let target = {
+        foo: 'Welcome, foo'
+    };
+    let proxy = new Proxy(target, {
+        get (receiver, name) {
+            return name in receiver ? receiver[name] : `Hello, ${name}`;
+        }
+    });
+
+    log(proxy.foo);
+    log(proxy.world);
+*/
+
+    let obj = { a: 1 };
+    Object.defineProperty(obj, 'b', { value: 2 });
+    obj[Symbol('c')] = 3;
+    log(Reflect.ownKeys(obj));
 }
