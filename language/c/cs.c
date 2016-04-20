@@ -123,6 +123,25 @@ void pointer (void) {
     printf("%d\n", *(pa+1));
 }
 
+/**
+ * struct
+ */
+struct DateType {
+    int year;
+    int month;
+    int day;
+};
+
+struct StudentType {
+    int num;
+    char *name;
+    char sex[3];
+    float score;
+    struct DateType birthday;
+};
+
+struct StudentType boy, girl;
+
 int main (void) {
     printf("%d\n", 01777);// eight digit hex
     printf("%d\n", 0x1777); // 16 digit hex
