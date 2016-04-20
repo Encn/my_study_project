@@ -269,3 +269,9 @@ let log = console.log; //eslint-disable-line
     obj = null;
     log(weakSet.has(obj));
 }
+
+// typed array
+{
+    let buffer = new ArrayBuffer();
+    log(buffer);
+}
