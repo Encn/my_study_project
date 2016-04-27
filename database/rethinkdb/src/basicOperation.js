@@ -14,7 +14,7 @@
  * rethinkdb javascript api: https://www.rethinkdb.com/api/javascript/
  */
 
-import 'babel-polyfill'; // we are gonna use asyn and await
+import 'babel-polyfill'; // we are gonna use async and await
 import r from 'rethinkdb';
 
 let log = console.log; // eslint-disable-line

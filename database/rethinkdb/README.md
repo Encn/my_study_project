@@ -25,3 +25,27 @@ When at the root of the project, run script with command:
 ```
 ./node_modules/.bin/babel-node filename.js
 ```
+
+## backup database
+
+https://www.rethinkdb.com/docs/backup/
+
+### install rethinkdb python driver first
+
+before you install driver, you need to have pip
+
+`sudo pip install rethinkdb`
+
+### backup and restore database
+
+`rethinkdb dump -f a.tar.gz`
+
+[options] -c -a -f -e --client --temp-dir -h
+
+`rethinkdb restore --force filename`
+
+[options] -c -a -f -i --client --temp-dir -h --hard-durability --force --no-secondary-indexes
+
+## extra
+
+http://stackoverflow.com/questions/38549/difference-between-inner-and-outer-joins

@@ -1,1 +1,0 @@
-http://stackoverflow.com/questions/38549/difference-between-inner-and-outer-joins
