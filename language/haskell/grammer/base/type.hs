@@ -4,7 +4,7 @@
 --
 -- 1. type reference
 --
--- 2. check type in ghci, like ghci> t 'a'
+-- 2. check type in ghci, like ghci> :t 'a'
 --
 -- 3. use [a] stands for a type which's instance is a list and item type is a.
 --    for tuple, every element has a type, like (a, b, c) stands for a type of tuple

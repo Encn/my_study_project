@@ -18,7 +18,7 @@
  * basic type
  *      char int float double void (c89)
  *      _Bool _Complex _Imaginmary (c99)
- * signed unsigned loing short long long (c99)
+ * signed unsigned long short long long (c99)
  */
 
 void typeLength (void) {
@@ -34,18 +34,6 @@ void typeLength (void) {
     printf("double length %lu \n", sizeof(double));
     // floar 4 bytes
     printf("float length %lu \n", sizeof(float));
-}
-
-/**
- * %c
- * %d
- * %u unsigned int
- * %ld
- * %s
- * %f
- */
-void outputControllSymbol (void) {
-    printf("6 digit int: %.2f\n", 0.123456789);
 }
 
 // macro
@@ -65,6 +53,18 @@ void simpleIO (void) {
 // static is inner link, only visible to this file.
 // normal function and external variable are visible to all files.
 static int onlyInThisFile = 3;
+
+/**
+ * %c
+ * %d
+ * %u unsigned int
+ * %ld
+ * %s
+ * %f
+ */
+void outputControllSymbol (void) {
+    printf("6 digit int: %.2f\n", 0.123456789);
+}
 
 void printConst (void) {
     printf("%lu\n", 12345ul);

@@ -64,7 +64,7 @@ myAbsolute x
     | otherwise = x * (-1)
 
 -- you can use where to define names
--- let expression do across span guard, but where can
+-- let expression can not cross span guard, but where can
 myMax :: (Ord a, Num a) => a -> a -> a
 myMax x y
     | distance x y > bound = x
@@ -72,6 +72,7 @@ myMax x y
     where distance c d = c - d
           bound = 0
 
+-- case of
 outputList :: [a] -> String
 outputList xs = "Our list is " ++ case xs of [] -> "empty"
                                              [x] -> "singleton"
