@@ -153,10 +153,18 @@ void printStruct (void) {
     };
     printf("num:%d\n", student.num);
 
-    struct StudentType students[3] = {
+    struct StudentType students[] = {
         {12, "kino", "f", 100},
         {12, "kino", "f", 100}
     };
+    struct StudentType anotherStudent = student;
+    struct StudentType *p = &anotherStudent;
+    printf("%s\n", p->name);
+
+    struct StudentType *pStudent;
+    for(pStudent = students;pStudent < students + 2;pStudent++) {
+        printf("%s\n", pStudent -> name);
+    }
 }
 
 int main (void) {
