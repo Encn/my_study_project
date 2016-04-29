@@ -1,17 +1,27 @@
+'use strict';
 
-module.exports = function() {
-  var p1 = new Promise(function(resolve, reject) {
-    resolve('Success');
-  });
+let log = console.log; //eslint-disable-line
 
-  p1.then(function(value) {
-    console.log(value); // "Success!"
-    return Promise.reject('oh, no!');
-  }).catch(function(e) {
-    console.log(e); // "oh, no!"
-  }).then(function() {
-    console.log('after a catch the chain is restored');
-  }, function() {
-    console.log('Not fired due to the catch');
-  });
-}
+let p1 = new Promise((resolve) => {
+    setTimeout(() => {
+        resolve(20);
+    }, 100);
+});
+
+p1.then((res) => {
+    log(res + 1);
+});
+
+p1.then((res) => {
+    log(res + 2);
+});
+
+p1.then((res) => {
+    log(res + 3);
+});
+
+setTimeout(() => {
+    p1.then((res) => {
+        log(res + 4);
+    });
+}, 200);

@@ -15,7 +15,7 @@ var log = console.log; // eslint-disable-line
  * ([a], int) -> [[a]]
  */
 log(
-    _.chunk([1, 2, 3, 4, 5], 2)
+    _.chunk([1, 2, 3, 4, 5], 2) // [[1, 2], [3, 4], 5]
 );
 
 /**
@@ -26,7 +26,7 @@ log(
  * falsey value: false null 0 '' undefined NaN
  */
 log(
-    _.compact([4, 2, '', '1', 0, null, 89, NaN])
+    _.compact([4, 2, '', '1', 0, null, 89, NaN]) // [4, 2, '1', 89]
 );
 
 /**
@@ -36,7 +36,7 @@ log(
 log(
     _.concat([1], [2, 3], [
         [4]
-    ])
+    ]) // [1, 2, 3, [4]]
 );
 
 /**
@@ -44,21 +44,21 @@ log(
  * ([a], [b]) -> [a]
  */
 log(
-    _.difference([3, 2, 1], [4, 2])
+    _.difference([3, 2, 1], [4, 2]) // [3, 1]
 );
 
 /**
  * differenceBy
  */
 log(
-    _.differenceBy([3.1, 2.2, 1.3], [4.4, 2.5], Math.floor),
+    _.differenceBy([3.1, 2.2, 1.3], [4.4, 2.5], Math.floor), // [3.1, 1.3]
     _.differenceBy([{
         x: 2
     }, {
         x: 1
     }], [{
         x: 1
-    }], 'x')
+    }], 'x') // [{x: 2}]
 );
 
 /**
@@ -74,7 +74,7 @@ log(
     }], [{
         x: 1,
         y: 2
-    }], _.isEqual)
+    }], _.isEqual) //[{x: 2, y: 1}]
 );
 
 /**
@@ -88,15 +88,15 @@ log(
  *  dropWhile
  */
 log(
-    _.drop([1, 2, 3]),
-    _.drop([1, 2, 3], 2),
-    _.drop([1, 2, 3], 5),
-    _.drop([1, 2, 3], 0),
+    _.drop([1, 2, 3]), // [2, 3]
+    _.drop([1, 2, 3], 2), // [3]
+    _.drop([1, 2, 3], 5), // []
+    _.drop([1, 2, 3], 0), // [1, 2, 3]
 
-    _.dropRight([1, 2, 3]),
-    _.dropRight([1, 2, 3], 2),
+    _.dropRight([1, 2, 3]), // [1, 2]
+    _.dropRight([1, 2, 3], 2), // [1]
 
-    _.dropRightWhile([1, 2, 3, 4], x => x > 3)
+    _.dropRightWhile([1, 2, 3, 4], x => x > 3) // [1, 2, 3]
 );
 
 /**
@@ -104,17 +104,17 @@ log(
  * array, value, [start=0], [end=array.length]
  */
 log(
-    _.fill([1, 2, 3], 'a'),
-    _.fill([4, 6, 8, 10], '*', 1, 3)
+    _.fill([1, 2, 3], 'a'), // ['a', 'a', 'a']
+    _.fill([4, 6, 8, 10], '*', 1, 3) // [4, '*', '*', 10]
 );
 
 /**
  * findIndex findLastIndex find
  */
 log(
-    _.findIndex([1, 2, 3, 4, 5], v => v === 3),
-    _.findIndex([1, 2, 3, 4, 5], v => v === 9),
-    _.findLastIndex([1, 2, 3, 3], v => v === 3)
+    _.findIndex([1, 2, 3, 4, 5], v => v === 3), // 2
+    _.findIndex([1, 2, 3, 4, 5], v => v === 9), // -1
+    _.findLastIndex([1, 2, 3, 3], v => v === 3) // 3
 );
 
 /**
@@ -123,8 +123,8 @@ log(
  * flattenDepth
  */
 log(
-    _.flatten([1, [2, [3, [4]], 5]]),
-    _.flattenDeep([1, [2, [3, [4]], 5]]),
+    _.flatten([1, [2, [3, [4]], 5]]), // [1, 2, [3, [4]], 5]
+    _.flattenDeep([1, [2, [3, [4]], 5]]), // [1, 2, 3, 4, 5]
     _.flattenDepth([1, [2, [3, [4]], 5], 1]),
     _.flattenDepth([1, [2, [3, [4]], 5], 2])
 );
@@ -136,7 +136,7 @@ log(
     _.fromPairs([
         ['a', 10],
         ['b', 10]
-    ])
+    ]) // {a: 10, b: 10}
 );
 
 /**
@@ -148,8 +148,8 @@ log(
  *  array [predicate=_.identity]
  */
 log(
-    _.head([1, 2, 3]),
-    _.head([]),
+    _.head([1, 2, 3]), // 1
+    _.head([]), // undefined TODO
     _.initial([1, 2, 3]),
     _.last([1, 2, 3]),
     _.tail([1, 2, 3]),
