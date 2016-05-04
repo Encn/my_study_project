@@ -1,57 +1,106 @@
 var log = console.log; // eslint-disable-line
 
-var Game = function (name, type, feature) {
-	//common property
-    this.type = type;
-    this.name = name;
-    this.feature = feature || Game.feature;
-	//private property
-    var common = 'property';
-	//privilege method
-    this.getCommon = function () {
-        log(common);
-        return common;
+log('Let\'s figure out what prototype is.');
+
+!(function () {
+    log('--------------------------course one----------------------------');
+    // define a function
+    var Func = function () {
+        // user this
+        this.thisAttr = 'this is thisAttr';
     };
-    return this;
-};
+    Func.prototype.protoAttr = 'this is protoAttr';
+    // create a instance
+    var funcInst = new Func();
 
-//prototype property
-Game.prototype = {
-    baseValue: 100,
-    toDiscrible: function () {
-        var text = 'This is ' + this.type + ' game,' + 'we called it ' + this.name;
-        log(text);
-    },
-    attack: function (enemy) {
-        var hurtNum = Game.damageNum(this.baseValue);
-        log('attack ' + enemy + ' ' + hurtNum + ' damage.');
+    // point 1
+    for (var name in funcInst) {
+        log(name + ' : ' + funcInst[name]);
     }
+})();
+
+!(function () {
+    log('--------------------------course two----------------------------');
+    // define a function
+    var Func = function () {
+        // user this
+        this.attr = 'this is thisAttr';
+    };
+    Func.prototype.attr = 'this is protoAttr';
+    Func.prototype.specialAttr = 'this is protoSpecialAttr';
+    // create a instance
+    var funcInst = new Func();
+
+    // point 2: 当访问对象的一个属性时, 首先查找对象本身, 找到则返回; 若不, 则查找基引用指向的对象的属性(如果还找不到实际上还会沿着原型链向上查找,  直至到根)
+
+    log(funcInst.attr);
+    log(funcInst.specialAttr);
+})();
+
+!(function () {
+    log('--------------------------course three----------------------------');
+    // define people
+    var People = function () {
+        this.name = 'no name';
+    };
+    People.prototype.principle = 'be nice';
+    // create a instance
+    var david = new People();
+    var john = new People();
+
+    // point 3: 原型是所有对象共有的
+    log(david);
+    log(john);
+
+    // If I want to change all people's principle, I just need to do this:
+    People.prototype.principle = 'be bad';
+    log(david);
+    log(john);
+
+    // If I want to change all people's name, I need to do it one by one.
+    david.name = 'david';
+    john.name = 'john';
+    log(david);
+    log(john);
+})();
+
+!(function () {
+    log('--------------------------course four----------------------------');
+    // define people
+    var People = function () {
+        this.name = 'no name';
+    };
+    People.prototype.principle = 'be nice';
+
+    // define man
+    var Man = function () {
+        this.gender = 'male';
+    };
+
+    Man.prototype = new People();
+    Man.constructor = Man;
+    Man.prototype.manPrinciple = 'be gentle';
+
+    // point 3: 除了能修改prototype指向的对象, 还能修改prototype指向哪一个对象, 即为prototype赋予一个不同的对象. 这可以实现一种简单的继承
+    var man = new Man();
+    log(man);
+})();
+
+// class Man, private attr name , public method getName
+// way1 : prototype
+var Man = function () {
+    var name = 'junyu';
+    this.getName = function () { // privilege method
+        return name;
+    };
 };
-
-//static property
-Game.feature = 'to be fun';
-
-//static method
-//dc 基础伤害值 ->实际伤害输出
-Game.damageNum = function (dc) {
-    var hurtNum = parseInt(dc) + Math.ceil(Math.random() * dc * 0.2);
-    return hurtNum;
-};
-
-var xianjian = new Game('xianjian', 'RPG');
-xianjian.toDiscrible();
-xianjian.attack('monster');
-
-//prototype inherit
-var Gujian = function () {
-    Game.apply(this, arguments);
-};
-var Surrogate = function () {
-    this.constructor = Gujian;
-};
-Surrogate.prototype = Game.prototype;
-Gujian.prototype = new Surrogate();
-Surrogate = null;
-
-var gujian2 = new Gujian('gujian2', 'RPG');
-log(gujian2);
+// way2 : closure.
+var Man = (function () {
+    var name = 'hello!'; // static
+    var Test = function () {
+        name = 'hello';
+    };
+    Test.prototype.setName = function (n) {
+        name = n;
+    };
+})();
