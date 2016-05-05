@@ -1,4 +1,5 @@
-###find 
+### find 
+
  -name 
  -regex
  -o， or
@@ -33,7 +34,7 @@ find . -name "*.swp" -delete
 find . -name "*.txt" -exec ./commands.sh {}
 ```
 
-###grep 
+### grep 
 grep match_patten file
 -n show line number
 -R find recursive
@@ -46,7 +47,7 @@ grep "class" . -R -n
 grep -e "class" -e "method" file
 ```
 
-###sort
+### sort
 ```
 sort -nrk 1 README.md
 
@@ -55,7 +56,3 @@ sort unsort.txt | uniq
 
 sort unsort.txt | uniq -c
 ```
-
-
-
-

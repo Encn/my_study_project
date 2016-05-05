@@ -87,7 +87,7 @@ done
 
 bash -x ./bash_test.sh -afzbd # -x makes you can see the commands
 
-echo -n Enter a numner;
+echo -n Enter a number;
 read number
 echo $number
 

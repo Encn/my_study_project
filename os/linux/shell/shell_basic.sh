@@ -2,7 +2,7 @@
 
 cd `dirname $0`
 
-# the command line interface or shell used on most linux systems is called bash, which  stands for Bourne again shell.
+# the command line interface or shell used on most linux systems is called bash, which stands for Bourne again shell.
 # The bash shell incoporates features from sh (the original Bourne shell), csh (the C shell), and ksh (the Korn shell)
 
 # shell expansion: scan command line -> cut it up in arguments -> modifying (may make chages to arguments) -> execute
