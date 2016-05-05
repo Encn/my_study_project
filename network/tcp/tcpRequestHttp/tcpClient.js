@@ -17,6 +17,6 @@ client.on('data', (chunk) => {
     console.log(chunk.toString());
 });
 
-client.on('end', (chunk) => {
+client.on('end', () => {
     console.log('server close connection');
 });

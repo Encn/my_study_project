@@ -1,11 +1,13 @@
-var WebSocketServer = require('ws').Server
-  , wss = new WebSocketServer({ port: 8080 });
+var WebSocketServer = require('ws').Server,
+    wss = new WebSocketServer({
+        port: 8080
+    });
 
-wss.on('connection', function connection(ws) {
-  ws.on('message', function incoming(message) {
-    console.log('received: %s', message);
-    ws.send('I got it.');
-  });
+wss.on('connection', function connection (ws) {
+    ws.on('message', function incoming (message) {
+        console.log('received: %s', message);
+        ws.send('I got it.');
+    });
 
-  ws.send('something');
+    ws.send('something');
 });

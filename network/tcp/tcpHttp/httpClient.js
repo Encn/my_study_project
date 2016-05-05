@@ -8,7 +8,7 @@ http.request({
     res.on('data', (chunk) => {
         console.log(chunk.toString());
     });
-    res.on('end', (chunk) => {
+    res.on('end', () => {
         console.log('end of http requesting');
     });
 });

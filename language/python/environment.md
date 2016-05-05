@@ -1,6 +1,7 @@
 # kino's python environment
 
 ## first install pip, the tool for installing Python packages
+
 - Install easy_install
 
 ```
@@ -19,8 +20,13 @@ pip install regex   # This is only an example for installing other modules
 ```
 
 ## packages I used frequently
+
 - httplib2 
+
 - pymongo  (mongodb)
+
 - nltk  (nlp tool)
+
 - lpthw.web  (web framework)
+
 - nose (unit test)

@@ -85,7 +85,7 @@ log(
  * dropRightWhile
  *      [a], obejct|string|function -> [a]
  *
- *  dropWhile
+ * dropWhile
  */
 log(
     _.drop([1, 2, 3]), // [2, 3]

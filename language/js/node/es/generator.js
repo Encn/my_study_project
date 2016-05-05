@@ -1,3 +1,5 @@
+'use strict';
+
 let log = console.log; // eslint-disable-line
 //
 {
@@ -8,7 +10,7 @@ let log = console.log; // eslint-disable-line
             yield index++;
     }
 
-    var gen = idMaker();
+    let gen = idMaker();
 
     log(gen.next());
     log(gen.next());
@@ -25,9 +27,9 @@ let log = console.log; // eslint-disable-line
             yield index++;
     }
 
-    var gen = idMaker();
+    let gen = idMaker();
 
-    for(var n of gen) {
+    for(let n of gen) {
         log(n);
     }
 }
@@ -37,7 +39,7 @@ let log = console.log; // eslint-disable-line
     log('--------------demo3-------------');
     let a = [11, 12, 13];
 
-    for(var n of a) {
+    for(let n of a) {
         log(n);
     }
 }
@@ -153,7 +155,7 @@ let log = console.log; // eslint-disable-line
         }
     }
 
-    var it = foo();
+    let it = foo();
     it.next();
 
     it.throw('oops!');
@@ -165,7 +167,7 @@ let log = console.log; // eslint-disable-line
 
     function *foo () {}
 
-    var it = foo();
+    let it = foo();
     try {
         it.throw('oops!');
     } catch (err) {
@@ -183,7 +185,7 @@ let log = console.log; // eslint-disable-line
         yield y;
     }
 
-    var it = foo();
+    let it = foo();
 
     it.next();
 
@@ -207,7 +209,7 @@ let log = console.log; // eslint-disable-line
         return r1;
     };
 
-    var it = foo();
+    let it = foo();
 
     it.next();
 }
