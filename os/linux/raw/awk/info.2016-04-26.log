@@ -1,0 +1,698 @@
+2016-04-26 10:39:35.912 [1624] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 10:39:36.636 [1624] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 10:39:40.960 [1624] check group on site.groupId
+2016-04-26 10:39:40.960 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:42.168 [1624] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 7c883749-b073-4757-9323-f21bff27d034
+2016-04-26 10:39:42.464 [1624] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 10:39:46.006 [1624] check group on site.groupId
+2016-04-26 10:39:46.006 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:46.073 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:39:47.598 [1624] check group on site.groupId
+2016-04-26 10:39:47.598 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:47.619 [1624] check group on site.groupId
+2016-04-26 10:39:47.619 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:47.625 [1624] check group on site.groupId
+2016-04-26 10:39:47.625 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:48.280 [1624] check group on site.groupId
+2016-04-26 10:39:48.280 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:48.509 [1624] check group on site.groupId
+2016-04-26 10:39:48.509 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:48.947 [1624] check group on site.groupId
+2016-04-26 10:39:48.947 [1624] check gruoup 1 vs 1
+2016-04-26 10:39:49.384 [1624] check group on site.groupId
+2016-04-26 10:39:49.384 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:05.783 [1624] check group on site.groupId
+2016-04-26 10:49:05.783 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:08.218 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:49:09.743 [1624] check group on site.groupId
+2016-04-26 10:49:09.743 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:09.746 [1624] check group on site.groupId
+2016-04-26 10:49:09.746 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:09.749 [1624] check group on site.groupId
+2016-04-26 10:49:09.749 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:10.422 [1624] check group on site.groupId
+2016-04-26 10:49:10.422 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:10.575 [1624] check group on site.groupId
+2016-04-26 10:49:10.575 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:10.955 [1624] check group on site.groupId
+2016-04-26 10:49:10.955 [1624] check gruoup 1 vs 1
+2016-04-26 10:49:11.578 [1624] check group on site.groupId
+2016-04-26 10:49:11.578 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:35.558 [1624] check group on site.groupId
+2016-04-26 10:50:35.558 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:35.632 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:50:37.195 [1624] check group on site.groupId
+2016-04-26 10:50:37.195 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:37.223 [1624] check group on site.groupId
+2016-04-26 10:50:37.223 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:37.229 [1624] check group on site.groupId
+2016-04-26 10:50:37.229 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:37.828 [1624] check group on site.groupId
+2016-04-26 10:50:37.828 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:38.496 [1624] check group on site.groupId
+2016-04-26 10:50:38.496 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:38.497 [1624] check group on site.groupId
+2016-04-26 10:50:38.497 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:38.500 [1624] check group on site.groupId
+2016-04-26 10:50:38.500 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:38.577 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:50:39.038 [1624] check group on site.groupId
+2016-04-26 10:50:39.038 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:40.545 [1624] check group on site.groupId
+2016-04-26 10:50:40.545 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:40.550 [1624] check group on site.groupId
+2016-04-26 10:50:40.550 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:40.551 [1624] check group on site.groupId
+2016-04-26 10:50:40.551 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:41.119 [1624] check group on site.groupId
+2016-04-26 10:50:41.119 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:41.623 [1624] check group on site.groupId
+2016-04-26 10:50:41.623 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:41.724 [1624] check group on site.groupId
+2016-04-26 10:50:41.724 [1624] check gruoup 1 vs 1
+2016-04-26 10:50:42.198 [1624] check group on site.groupId
+2016-04-26 10:50:42.198 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:37.442 [1624] check group on site.groupId
+2016-04-26 10:51:37.442 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:37.598 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:51:39.252 [1624] check group on site.groupId
+2016-04-26 10:51:39.252 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:39.255 [1624] check group on site.groupId
+2016-04-26 10:51:39.255 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:39.489 [1624] check group on site.groupId
+2016-04-26 10:51:39.489 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:40.470 [1624] check group on site.groupId
+2016-04-26 10:51:40.471 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:41.361 [1624] check group on site.groupId
+2016-04-26 10:51:41.361 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:41.770 [1624] check group on site.groupId
+2016-04-26 10:51:41.770 [1624] check gruoup 1 vs 1
+2016-04-26 10:51:44.586 [1624] check group on site.groupId
+2016-04-26 10:51:44.586 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:29.336 [1624] check group on site.groupId
+2016-04-26 10:54:29.336 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:29.407 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:54:31.013 [1624] check group on site.groupId
+2016-04-26 10:54:31.013 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:31.016 [1624] check group on site.groupId
+2016-04-26 10:54:31.016 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:31.028 [1624] check group on site.groupId
+2016-04-26 10:54:31.028 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:31.629 [1624] check group on site.groupId
+2016-04-26 10:54:31.629 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:31.814 [1624] check group on site.groupId
+2016-04-26 10:54:31.814 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:32.203 [1624] check group on site.groupId
+2016-04-26 10:54:32.203 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:32.879 [1624] check group on site.groupId
+2016-04-26 10:54:32.879 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:57.485 [1624] check group on site.groupId
+2016-04-26 10:54:57.485 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:57.561 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:54:59.456 [1624] check group on site.groupId
+2016-04-26 10:54:59.456 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:59.465 [1624] check group on site.groupId
+2016-04-26 10:54:59.465 [1624] check gruoup 1 vs 1
+2016-04-26 10:54:59.471 [1624] check group on site.groupId
+2016-04-26 10:54:59.471 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:00.070 [1624] check group on site.groupId
+2016-04-26 10:55:00.070 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:00.295 [1624] check group on site.groupId
+2016-04-26 10:55:00.295 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:00.668 [1624] check group on site.groupId
+2016-04-26 10:55:00.668 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:00.907 [1624] check group on site.groupId
+2016-04-26 10:55:00.907 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:05.417 [1624] check group on site.groupId
+2016-04-26 10:55:05.417 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:05.489 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:55:07.249 [1624] check group on site.groupId
+2016-04-26 10:55:07.249 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:07.252 [1624] check group on site.groupId
+2016-04-26 10:55:07.252 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:07.259 [1624] check group on site.groupId
+2016-04-26 10:55:07.259 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:07.896 [1624] check group on site.groupId
+2016-04-26 10:55:07.896 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:08.969 [1624] check group on site.groupId
+2016-04-26 10:55:08.969 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:08.973 [1624] check group on site.groupId
+2016-04-26 10:55:08.973 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:09.071 [1624] check group on site.groupId
+2016-04-26 10:55:09.071 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:43.835 [1624] check group on site.groupId
+2016-04-26 10:55:43.835 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:43.904 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:55:45.613 [1624] check group on site.groupId
+2016-04-26 10:55:45.613 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:45.620 [1624] check group on site.groupId
+2016-04-26 10:55:45.620 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:45.625 [1624] check group on site.groupId
+2016-04-26 10:55:45.625 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:46.225 [1624] check group on site.groupId
+2016-04-26 10:55:46.225 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:46.750 [1624] check group on site.groupId
+2016-04-26 10:55:46.750 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:46.789 [1624] check group on site.groupId
+2016-04-26 10:55:46.789 [1624] check gruoup 1 vs 1
+2016-04-26 10:55:47.297 [1624] check group on site.groupId
+2016-04-26 10:55:47.297 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:34.719 [1624] check group on site.groupId
+2016-04-26 10:57:34.719 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:34.780 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 10:57:36.495 [1624] check group on site.groupId
+2016-04-26 10:57:36.495 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:36.503 [1624] check group on site.groupId
+2016-04-26 10:57:36.503 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:36.518 [1624] check group on site.groupId
+2016-04-26 10:57:36.518 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:37.097 [1624] check group on site.groupId
+2016-04-26 10:57:37.097 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:37.270 [1624] check group on site.groupId
+2016-04-26 10:57:37.270 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:37.683 [1624] check group on site.groupId
+2016-04-26 10:57:37.683 [1624] check gruoup 1 vs 1
+2016-04-26 10:57:38.300 [1624] check group on site.groupId
+2016-04-26 10:57:38.300 [1624] check gruoup 1 vs 1
+2016-04-26 10:59:53.930 [1624] check group on site.groupId
+2016-04-26 10:59:53.930 [1624] check gruoup 1 vs 1
+2016-04-26 10:59:55.213 [1624] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 51892fa2-fe04-4d46-9147-ec3dc582a73c
+2016-04-26 10:59:55.591 [1624] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 11:00:35.506 [1624] check group on page.groupId
+2016-04-26 11:00:35.506 [1624] check gruoup 1 vs 1
+2016-04-26 11:00:35.736 [1624] render /pages/6800/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 11:03:12.413 [1624] check group on page.groupId
+2016-04-26 11:03:12.413 [1624] check gruoup 1 vs 1
+2016-04-26 11:03:12.717 [1624] render /pages/6800/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 11:03:39.791 [1624] check group on page.groupId
+2016-04-26 11:03:39.791 [1624] check gruoup 1 vs 1
+2016-04-26 11:03:40.056 [1624] render /pages/6800/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 11:03:52.425 [1624] check group on page.groupId
+2016-04-26 11:03:52.425 [1624] check gruoup 1 vs 1
+2016-04-26 11:03:52.658 [1624] render /pages/6800/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 11:04:42.773 [1624] check group on site.groupId
+2016-04-26 11:04:42.773 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:44.162 [1624] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid f3822b3a-fffa-40bc-a127-3238f3371b47
+2016-04-26 11:04:44.437 [1624] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 11:04:48.324 [1624] check group on site.groupId
+2016-04-26 11:04:48.324 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:48.411 [1624] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 11:04:49.864 [1624] check group on site.groupId
+2016-04-26 11:04:49.864 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:49.879 [1624] check group on site.groupId
+2016-04-26 11:04:49.879 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:49.898 [1624] check group on site.groupId
+2016-04-26 11:04:49.898 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:50.591 [1624] check group on site.groupId
+2016-04-26 11:04:50.591 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:50.743 [1624] check group on site.groupId
+2016-04-26 11:04:50.743 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:51.259 [1624] check group on site.groupId
+2016-04-26 11:04:51.259 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:51.429 [1624] check group on site.groupId
+2016-04-26 11:04:51.429 [1624] check gruoup 1 vs 1
+2016-04-26 11:04:56.689 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:07:52.959 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:08:24.557 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:09:26.329 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:09:59.303 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:10:17.497 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:11:42.480 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:12:07.154 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:12:54.092 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:22:57.728 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:23:26.931 [1624] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:26:56.820 [1965] NODE_ENV = undefined
+2016-04-26 11:26:59.558 [1965] web is up and running in standalone mode
+2016-04-26 11:27:04.431 [1965] render /pages/6800/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 11:38:53.991 [1965] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 13:47:10.311 [1965] render /pages using tpl /Users/kino/lib/views/page/list_sm.xtpl
+2016-04-26 13:47:16.065 [1965] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 13:47:18.576 [1965] check group on site.groupId
+2016-04-26 13:47:18.576 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:20.064 [1965] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 0a3281c4-5e1d-48ab-b76c-f6268adfd100
+2016-04-26 13:47:20.581 [1965] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 13:47:23.793 [1965] check group on site.groupId
+2016-04-26 13:47:23.793 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:25.314 [1965] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":2,"status":1}, found 20 results, uuid e6e8cf78-1b67-46ad-9bea-025af8aa236e
+2016-04-26 13:47:25.545 [1965] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 13:47:29.666 [1965] check group on page.groupId
+2016-04-26 13:47:29.666 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:30.086 [1965] render /pages/6654/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 13:47:41.654 [1965] check group on site.groupId
+2016-04-26 13:47:41.654 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:41.722 [1965] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 13:47:43.353 [1965] check group on site.groupId
+2016-04-26 13:47:43.354 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:43.359 [1965] check group on site.groupId
+2016-04-26 13:47:43.360 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:43.360 [1965] check group on site.groupId
+2016-04-26 13:47:43.360 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:44.870 [1965] check group on site.groupId
+2016-04-26 13:47:44.870 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:44.871 [1965] check group on site.groupId
+2016-04-26 13:47:44.871 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:45.204 [1965] check group on site.groupId
+2016-04-26 13:47:45.204 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:46.243 [1965] check group on site.groupId
+2016-04-26 13:47:46.243 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:52.661 [1965] check group on site.groupId
+2016-04-26 13:47:52.661 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:52.733 [1965] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 13:47:54.725 [1965] check group on site.groupId
+2016-04-26 13:47:54.725 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:54.730 [1965] check group on site.groupId
+2016-04-26 13:47:54.730 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:54.740 [1965] check group on site.groupId
+2016-04-26 13:47:54.740 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:55.812 [1965] check group on site.groupId
+2016-04-26 13:47:55.812 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:55.827 [1965] check group on site.groupId
+2016-04-26 13:47:55.827 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:56.775 [1965] check group on site.groupId
+2016-04-26 13:47:56.775 [1965] check gruoup 1 vs 1
+2016-04-26 13:47:56.929 [1965] check group on site.groupId
+2016-04-26 13:47:56.929 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:02.151 [1965] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 14:50:03.594 [1965] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 14:50:05.700 [1965] check group on site.groupId
+2016-04-26 14:50:05.700 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:06.671 [1965] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 1a35cc3a-7307-447e-860f-160478589159
+2016-04-26 14:50:07.227 [1965] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 14:50:10.040 [1965] check group on site.groupId
+2016-04-26 14:50:10.040 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:11.608 [1965] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":2,"status":1}, found 20 results, uuid d4e11aad-2b86-4b23-9fa9-8353bcdfcbb4
+2016-04-26 14:50:12.088 [1965] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 14:50:16.183 [1965] check group on page.groupId
+2016-04-26 14:50:16.183 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:16.620 [1965] render /pages/6654/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 14:50:25.495 [1965] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 14:50:29.464 [1965] check group on site.groupId
+2016-04-26 14:50:29.464 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:31.312 [1965] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 8611f059-0200-4364-8051-b06bb0a6e23c
+2016-04-26 14:50:31.849 [1965] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 14:50:34.543 [1965] check group on site.groupId
+2016-04-26 14:50:34.543 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:34.624 [1965] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 14:50:36.211 [1965] check group on site.groupId
+2016-04-26 14:50:36.211 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:36.250 [1965] check group on site.groupId
+2016-04-26 14:50:36.250 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:36.254 [1965] check group on site.groupId
+2016-04-26 14:50:36.254 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:37.244 [1965] check group on site.groupId
+2016-04-26 14:50:37.244 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:37.579 [1965] check group on site.groupId
+2016-04-26 14:50:37.579 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:38.660 [1965] check group on site.groupId
+2016-04-26 14:50:38.660 [1965] check gruoup 1 vs 1
+2016-04-26 14:50:48.093 [1965] check group on site.groupId
+2016-04-26 14:50:48.093 [1965] check gruoup 1 vs 1
+2016-04-26 14:53:10.635 [1965] render /_debug/tpe/invoke using tpl /Users/kino/lib/views/tpe/invoke.xtpl
+2016-04-26 14:57:33.821 [1965] check group on site.groupId
+2016-04-26 14:57:33.821 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:33.909 [1965] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 14:57:35.945 [1965] check group on site.groupId
+2016-04-26 14:57:35.945 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:35.949 [1965] check group on site.groupId
+2016-04-26 14:57:35.949 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:35.953 [1965] check group on site.groupId
+2016-04-26 14:57:35.953 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:37.011 [1965] check group on site.groupId
+2016-04-26 14:57:37.011 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:37.151 [1965] check group on site.groupId
+2016-04-26 14:57:37.151 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:38.272 [1965] check group on site.groupId
+2016-04-26 14:57:38.272 [1965] check gruoup 1 vs 1
+2016-04-26 14:57:38.654 [1965] check group on site.groupId
+2016-04-26 14:57:38.654 [1965] check gruoup 1 vs 1
+2016-04-26 14:58:37.351 [1965] queryForManageList, 1 found
+2016-04-26 15:00:56.310 [1965] queryForManageList, 1 found
+2016-04-26 15:08:58.143 [1965] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 15:24:56.118 [1965] check group on site.groupId
+2016-04-26 15:24:56.119 [1965] check gruoup 1 vs 1
+2016-04-26 15:24:59.248 [1965] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 2825c4a2-108b-4d06-bfaa-14cb078161ff
+2016-04-26 15:25:00.238 [1965] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:25:03.227 [1965] check group on site.groupId
+2016-04-26 15:25:03.227 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:03.355 [1965] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 15:25:05.351 [1965] check group on site.groupId
+2016-04-26 15:25:05.351 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:05.352 [1965] check group on site.groupId
+2016-04-26 15:25:05.352 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:05.398 [1965] check group on site.groupId
+2016-04-26 15:25:05.398 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:06.615 [1965] check group on site.groupId
+2016-04-26 15:25:06.615 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:06.857 [1965] check group on site.groupId
+2016-04-26 15:25:06.857 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:06.985 [1965] check group on site.groupId
+2016-04-26 15:25:06.985 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:08.060 [1965] check group on site.groupId
+2016-04-26 15:25:08.060 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:32.018 [1965] dummy(6817) page created
+2016-04-26 15:25:32.258 [1965] real(6818) page created
+2016-04-26 15:25:32.795 [1965] check group on page.groupId
+2016-04-26 15:25:32.795 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:33.331 [1965] render /pages/6818/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 15:25:36.351 [1965] check group on page.groupId
+2016-04-26 15:25:36.351 [1965] check gruoup 1 vs 1
+2016-04-26 15:25:36.448 [1965] render /pages/6818/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:31:40.096 [4284] NODE_ENV = undefined
+2016-04-26 15:31:43.297 [4284] web is up and running in standalone mode
+2016-04-26 15:31:49.585 [4284] check group on site.groupId
+2016-04-26 15:31:49.585 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:50.736 [4284] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 8d434ec2-2fe1-4b51-93ea-d62678ca3c74
+2016-04-26 15:31:51.308 [4284] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:31:55.908 [4284] check group on site.groupId
+2016-04-26 15:31:55.908 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:55.971 [4284] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 15:31:57.580 [4284] check group on site.groupId
+2016-04-26 15:31:57.580 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:57.585 [4284] check group on site.groupId
+2016-04-26 15:31:57.585 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:57.586 [4284] check group on site.groupId
+2016-04-26 15:31:57.586 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:58.665 [4284] check group on site.groupId
+2016-04-26 15:31:58.665 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:58.688 [4284] check group on site.groupId
+2016-04-26 15:31:58.688 [4284] check gruoup 1 vs 1
+2016-04-26 15:31:59.658 [4284] check group on site.groupId
+2016-04-26 15:31:59.658 [4284] check gruoup 1 vs 1
+2016-04-26 15:32:00.080 [4284] check group on site.groupId
+2016-04-26 15:32:00.080 [4284] check gruoup 1 vs 1
+2016-04-26 15:32:19.376 [4284] dummy(6819) page created
+2016-04-26 15:32:19.901 [4284] real(6820) page created
+2016-04-26 15:32:20.168 [4284] check group on page.groupId
+2016-04-26 15:32:20.168 [4284] check gruoup 1 vs 1
+2016-04-26 15:32:20.702 [4284] render /pages/6820/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 15:32:24.222 [4284] check group on page.groupId
+2016-04-26 15:32:24.222 [4284] check gruoup 1 vs 1
+2016-04-26 15:32:24.319 [4284] render /pages/6820/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:32:33.044 [4284] render /pages/ using tpl /Users/kino/lib/views/page/list_sm.xtpl
+2016-04-26 15:32:59.914 [4284] check group on page.groupId
+2016-04-26 15:32:59.914 [4284] check gruoup 1 vs 1
+2016-04-26 15:33:00.311 [4284] render /pages/6819/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:33:48.659 [4284] check group on page.groupId
+2016-04-26 15:33:48.659 [4284] check gruoup 1 vs 1
+2016-04-26 15:33:49.065 [4284] render /pages/6819/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:33:55.558 [4284] check group on page.groupId
+2016-04-26 15:33:55.558 [4284] check gruoup 1 vs 1
+2016-04-26 15:33:55.963 [4284] render /pages/6819/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:34:02.787 [4284] check group on site.groupId
+2016-04-26 15:34:02.788 [4284] check gruoup 1 vs 1
+2016-04-26 15:34:04.294 [4284] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid f699fab6-899c-4e22-b8de-d7ac095e4006
+2016-04-26 15:34:04.856 [4284] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:34:12.763 [4284] check group on page.groupId
+2016-04-26 15:34:12.763 [4284] check gruoup 1 vs 1
+2016-04-26 15:34:13.185 [4284] render /pages/6819/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:36:56.720 [4284] check group on page.groupId
+2016-04-26 15:36:56.721 [4284] check gruoup 1 vs 1
+2016-04-26 15:36:56.944 [4284] render /pages/6800/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:37:26.626 [4284] check group on page.groupId
+2016-04-26 15:37:26.626 [4284] check gruoup 1 vs 1
+2016-04-26 15:37:26.853 [4284] render /pages/6800/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:37:34.582 [4327] NODE_ENV = undefined
+2016-04-26 15:37:37.355 [4327] web is up and running in standalone mode
+2016-04-26 15:37:38.264 [4327] check group on site.groupId
+2016-04-26 15:37:38.264 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:39.905 [4327] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 394f8048-6b88-4323-8312-a217de753494
+2016-04-26 15:37:40.383 [4327] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:37:47.282 [4327] check group on site.groupId
+2016-04-26 15:37:47.282 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:47.345 [4327] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 15:37:48.846 [4327] check group on site.groupId
+2016-04-26 15:37:48.847 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:48.856 [4327] check group on site.groupId
+2016-04-26 15:37:48.856 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:48.857 [4327] check group on site.groupId
+2016-04-26 15:37:48.857 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:49.937 [4327] check group on site.groupId
+2016-04-26 15:37:49.937 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:49.965 [4327] check group on site.groupId
+2016-04-26 15:37:49.965 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:50.975 [4327] check group on site.groupId
+2016-04-26 15:37:50.976 [4327] check gruoup 1 vs 1
+2016-04-26 15:37:51.243 [4327] check group on site.groupId
+2016-04-26 15:37:51.243 [4327] check gruoup 1 vs 1
+2016-04-26 15:38:01.657 [4327] dummy(6821) page created
+2016-04-26 15:38:01.956 [4327] real(6822) page created
+2016-04-26 15:38:02.369 [4327] check group on page.groupId
+2016-04-26 15:38:02.369 [4327] check gruoup 1 vs 1
+2016-04-26 15:38:02.972 [4327] render /pages/6822/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 15:38:06.517 [4327] check group on page.groupId
+2016-04-26 15:38:06.518 [4327] check gruoup 1 vs 1
+2016-04-26 15:38:06.629 [4327] render /pages/6822/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:45:16.454 [4327] check group on page.groupId
+2016-04-26 15:45:16.454 [4327] check gruoup 1 vs 1
+2016-04-26 15:45:16.843 [4327] render /pages/6821/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:45:23.727 [4327] check group on site.groupId
+2016-04-26 15:45:23.727 [4327] check gruoup 1 vs 1
+2016-04-26 15:45:25.173 [4327] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 0b0fe180-7075-4445-b391-8464a71070f2
+2016-04-26 15:45:25.687 [4327] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:45:28.347 [4327] check group on page.groupId
+2016-04-26 15:45:28.347 [4327] check gruoup 1 vs 1
+2016-04-26 15:45:28.785 [4327] render /pages/6821/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:45:32.584 [4327] check group on page.groupId
+2016-04-26 15:45:32.584 [4327] check gruoup 1 vs 1
+2016-04-26 15:45:33.018 [4327] render /pages/6821/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:46:01.816 [4327] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 15:46:06.617 [4327] check group on site.groupId
+2016-04-26 15:46:06.617 [4327] check gruoup 1 vs 1
+2016-04-26 15:46:06.816 [4327] page query {"siteId":654,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 5 results, uuid c3bdf858-3966-4132-a37d-d2522ac41c87
+2016-04-26 15:46:07.277 [4327] render /sites/654/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:46:57.539 [4327] check group on site.groupId
+2016-04-26 15:46:57.539 [4327] check gruoup 1 vs 1
+2016-04-26 15:46:58.075 [4327] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid c4641a05-4fa3-4d33-8166-bc2b9fa77125
+2016-04-26 15:46:58.630 [4327] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:49:04.912 [4327] render /pages/6782/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 15:49:21.846 [4327] check group on page.groupId
+2016-04-26 15:49:21.846 [4327] check gruoup 1 vs 1
+2016-04-26 15:49:22.848 [4327] render /pages/6824/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 15:49:25.947 [4327] check group on page.groupId
+2016-04-26 15:49:25.947 [4327] check gruoup 1 vs 1
+2016-04-26 15:49:26.419 [4327] render /pages/6824/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:50:15.270 [4327] check group on site.groupId
+2016-04-26 15:50:15.270 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:15.560 [4327] render /sites/627/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 15:50:17.287 [4327] check group on site.groupId
+2016-04-26 15:50:17.287 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:17.303 [4327] check group on site.groupId
+2016-04-26 15:50:17.303 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:17.317 [4327] check group on site.groupId
+2016-04-26 15:50:17.317 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:17.845 [4327] check group on site.groupId
+2016-04-26 15:50:17.845 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:17.847 [4327] check group on site.groupId
+2016-04-26 15:50:17.847 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:17.883 [4327] check group on site.groupId
+2016-04-26 15:50:17.883 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:21.894 [4327] check group on page.groupId
+2016-04-26 15:50:21.894 [4327] check gruoup 1 vs 1
+2016-04-26 15:50:22.137 [4327] render /pages/6782/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 15:51:02.749 [4327] dummy(6826) page created
+2016-04-26 15:51:03.006 [4327] real(6827) page created
+2016-04-26 15:51:03.520 [4327] check group on page.groupId
+2016-04-26 15:51:03.521 [4327] check gruoup 1 vs 1
+2016-04-26 15:51:04.080 [4327] render /pages/6827/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 15:51:07.592 [4327] check group on page.groupId
+2016-04-26 15:51:07.592 [4327] check gruoup 1 vs 1
+2016-04-26 15:51:07.714 [4327] render /pages/6827/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:51:20.281 [4327] queryFavorComponentVersionWithSolution, found 0 version, uuid fcb008d3-1c99-4979-b6ec-7981dfd8c5fc
+2016-04-26 15:51:21.758 [4327] queryForPageDesign, found 20 version, uuid f4cb6768-ac8d-46cc-9640-15ed26eb6bf8
+2016-04-26 15:51:25.943 [4327] query asset kissy@1.4.8
+2016-04-26 15:51:25.965 [4327] query asset tb-init@~0.0.1
+2016-04-26 15:51:25.997 [4327] check group on module.groupId
+2016-04-26 15:51:25.997 [4327] check gruoup 1 vs 1
+2016-04-26 15:51:25.997 [4327] preview act-banner-pc
+2016-04-26 15:51:30.557 [4327] check group on page.groupId
+2016-04-26 15:51:30.557 [4327] check gruoup 1 vs 1
+2016-04-26 15:51:30.830 [4327] render /pages/6827/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:51:55.337 [4327] check group on site.groupId
+2016-04-26 15:51:55.337 [4327] check gruoup 1 vs 1
+2016-04-26 15:51:55.765 [4327] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 2f066c13-7fe3-40b0-bfca-59fba31977a4
+2016-04-26 15:51:56.281 [4327] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:58:04.348 [4327] check group on page.groupId
+2016-04-26 15:58:04.348 [4327] check gruoup 1 vs 1
+2016-04-26 15:58:04.896 [4327] render /pages/6807/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 15:58:08.149 [4327] check group on page.groupId
+2016-04-26 15:58:08.149 [4327] check gruoup 1 vs 1
+2016-04-26 15:58:08.255 [4327] render /pages/6807/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 15:58:19.551 [4327] check group on site.groupId
+2016-04-26 15:58:19.551 [4327] check gruoup 1 vs 1
+2016-04-26 15:58:19.791 [4327] page query {"siteId":627,"groupId":1,"page":3,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 6 results, uuid 84527fa7-b313-4b91-a430-6797e27c2f4a
+2016-04-26 15:58:20.283 [4327] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:58:37.931 [4327] check group on site.groupId
+2016-04-26 15:58:37.931 [4327] check gruoup 1 vs 1
+2016-04-26 15:58:38.493 [4327] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 9f2d3c63-da3d-47ca-a1b4-b96ad10f5db4
+2016-04-26 15:58:39.041 [4327] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:58:42.732 [4327] check group on site.groupId
+2016-04-26 15:58:42.732 [4327] check gruoup 1 vs 1
+2016-04-26 15:58:43.357 [4327] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid f87bcf2b-51c6-437b-bfb5-824ffc76deff
+2016-04-26 15:58:43.870 [4327] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 15:58:52.682 [4327] check group on page.groupId
+2016-04-26 15:58:52.682 [4327] check gruoup 1 vs 1
+2016-04-26 15:58:53.107 [4327] render /pages/6826/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 16:07:26.635 [4504] NODE_ENV = undefined
+2016-04-26 16:07:29.650 [4504] web is up and running in standalone mode
+2016-04-26 16:08:17.604 [4504] check group on site.groupId
+2016-04-26 16:08:17.604 [4504] check gruoup 1 vs 1
+2016-04-26 16:08:18.111 [4504] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid bfdd7dc9-c55c-460d-820b-c7d78f775766
+2016-04-26 16:08:18.664 [4504] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 16:08:23.398 [4504] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:08:58.001 [4504] check group on page.groupId
+2016-04-26 16:08:58.001 [4504] check gruoup 1 vs 1
+2016-04-26 16:08:58.816 [4504] render /pages/6829/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 16:09:02.560 [4504] check group on page.groupId
+2016-04-26 16:09:02.560 [4504] check gruoup 1 vs 1
+2016-04-26 16:09:02.992 [4504] render /pages/6829/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 16:09:20.971 [4504] check group on site.groupId
+2016-04-26 16:09:20.971 [4504] check gruoup 1 vs 1
+2016-04-26 16:09:21.416 [4504] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 92774639-29b0-4256-8557-e2329ac28517
+2016-04-26 16:09:21.922 [4504] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 16:09:29.461 [4504] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:10:14.888 [4504] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:10:49.640 [4504] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:13:36.729 [4504] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:22:47.566 [4504] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:23:29.102 [4504] render /pages/6823/copy using tpl /Users/kino/lib/views/page/copy.xtpl
+2016-04-26 16:24:44.379 [4504] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 16:27:39.161 [4504] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 16:27:42.560 [4504] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 16:31:37.230 [4698] NODE_ENV = undefined
+2016-04-26 16:31:40.097 [4698] web is up and running in standalone mode
+2016-04-26 16:32:25.263 [4698] render /pages/ using tpl /Users/kino/lib/views/page/list_sm.xtpl
+2016-04-26 16:32:28.942 [4698] render /sites using tpl /Users/kino/lib/views/site/list.xtpl
+2016-04-26 16:32:32.630 [4698] check group on site.groupId
+2016-04-26 16:32:32.630 [4698] check gruoup 1 vs 1
+2016-04-26 16:32:32.899 [4698] page query {"siteId":627,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 2fb8a86d-2eeb-43a5-b308-1dfec98c5de4
+2016-04-26 16:32:33.404 [4698] render /sites/627/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 16:35:35.895 [4698] render /pages/6826/taokecreate using tpl /Users/kino/lib/views/page/taoke_create.xtpl
+2016-04-26 16:36:03.595 [4698] check group on page.groupId
+2016-04-26 16:36:03.595 [4698] check gruoup 1 vs 1
+2016-04-26 16:36:07.999 [4698] render /pages/6831/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 16:59:47.861 [4698] check group on site.groupId
+2016-04-26 16:59:47.861 [4698] check gruoup 1 vs 1
+2016-04-26 16:59:48.219 [4698] render /sites/654/solutions using tpl /Users/kino/lib/views/solution/list.xtpl
+2016-04-26 16:59:51.087 [4698] check group on site.groupId
+2016-04-26 16:59:51.087 [4698] check gruoup 1 vs 1
+2016-04-26 16:59:51.452 [4698] render /sites/654/solutions/new using tpl /Users/kino/lib/views/solution/edit.xtpl
+2016-04-26 17:03:42.313 [4698] check group on site.groupId
+2016-04-26 17:03:42.313 [4698] check gruoup 1 vs 1
+2016-04-26 17:03:42.704 [4698] render /sites/654/solutions using tpl /Users/kino/lib/views/solution/list.xtpl
+2016-04-26 17:08:22.225 [4698] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 17:25:07.781 [4698] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 18:21:34.386 [4698] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 18:21:35.206 [4698] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 18:21:39.031 [4698] check group on site.groupId
+2016-04-26 18:21:39.031 [4698] check gruoup 1 vs 1
+2016-04-26 18:21:40.468 [4698] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 0c151407-c62d-4244-8f92-e25c7b8aa80c
+2016-04-26 18:21:40.768 [4698] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 18:21:45.373 [4698] check group on page.groupId
+2016-04-26 18:21:45.373 [4698] check gruoup 1 vs 1
+2016-04-26 18:21:45.879 [4698] render /pages/6821/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 18:21:50.185 [4698] check group on site.groupId
+2016-04-26 18:21:50.185 [4698] check gruoup 1 vs 1
+2016-04-26 18:21:51.686 [4698] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":0,"status":1}, found 20 results, uuid 3a24455a-cf7f-4443-b0ca-335c94442615
+2016-04-26 18:21:52.177 [4698] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 18:21:55.351 [4698] check group on site.groupId
+2016-04-26 18:21:55.351 [4698] check gruoup 1 vs 1
+2016-04-26 18:21:56.985 [4698] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":2,"status":1}, found 20 results, uuid 61b1eaf7-c2ae-41dc-8568-26dc9a041b16
+2016-04-26 18:21:57.443 [4698] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 18:22:01.360 [4698] check group on page.groupId
+2016-04-26 18:22:01.360 [4698] check gruoup 1 vs 1
+2016-04-26 18:22:01.799 [4698] render /pages/6654/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 18:22:14.527 [6342] NODE_ENV = undefined
+2016-04-26 18:22:17.766 [6342] web is up and running in standalone mode
+2016-04-26 18:22:44.623 [6342] check group on site.groupId
+2016-04-26 18:22:44.623 [6342] check gruoup 1 vs 1
+2016-04-26 18:22:44.697 [6342] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 18:23:05.875 [6342] check group on site.groupId
+2016-04-26 18:23:05.875 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:05.951 [6342] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 18:23:20.740 [6342] check group on site.groupId
+2016-04-26 18:23:20.740 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:20.825 [6342] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 18:23:22.878 [6342] check group on site.groupId
+2016-04-26 18:23:22.878 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:22.886 [6342] check group on site.groupId
+2016-04-26 18:23:22.886 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:22.889 [6342] check group on site.groupId
+2016-04-26 18:23:22.889 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:24.346 [6342] check group on site.groupId
+2016-04-26 18:23:24.346 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:24.547 [6342] check group on site.groupId
+2016-04-26 18:23:24.547 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:24.548 [6342] check group on site.groupId
+2016-04-26 18:23:24.548 [6342] check gruoup 1 vs 1
+2016-04-26 18:23:25.577 [6342] check group on site.groupId
+2016-04-26 18:23:25.577 [6342] check gruoup 1 vs 1
+2016-04-26 18:24:09.069 [6361] NODE_ENV = undefined
+2016-04-26 18:24:11.520 [6361] web is up and running in standalone mode
+2016-04-26 18:25:15.943 [6377] NODE_ENV = undefined
+2016-04-26 18:25:18.487 [6377] web is up and running in standalone mode
+2016-04-26 18:26:07.164 [6377] check group on page.groupId
+2016-04-26 18:26:07.164 [6377] check gruoup 1 vs 1
+2016-04-26 18:26:08.162 [6377] render /pages/6654/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 18:26:50.115 [6393] NODE_ENV = undefined
+2016-04-26 18:26:52.549 [6393] web is up and running in standalone mode
+2016-04-26 18:41:40.336 [6393] check group on page.groupId
+2016-04-26 18:41:40.336 [6393] check gruoup 1 vs 1
+2016-04-26 18:41:40.823 [6393] render /pages/6654/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 19:26:20.896 [7433] NODE_ENV = undefined
+2016-04-26 19:26:23.437 [7433] web is up and running in standalone mode
+2016-04-26 19:27:43.088 [7458] NODE_ENV = undefined
+2016-04-26 19:27:45.523 [7458] web is up and running in standalone mode
+2016-04-26 19:28:33.668 [7458] render / using tpl /Users/kino/lib/views/trail.xtpl
+2016-04-26 19:28:37.862 [7458] check group on site.groupId
+2016-04-26 19:28:37.862 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:38.132 [7458] render /sites/500/pages/new using tpl /Users/kino/lib/views/page/new.xtpl
+2016-04-26 19:28:39.832 [7458] check group on site.groupId
+2016-04-26 19:28:39.832 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:39.860 [7458] check group on site.groupId
+2016-04-26 19:28:39.860 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:39.866 [7458] check group on site.groupId
+2016-04-26 19:28:39.866 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:40.945 [7458] check group on site.groupId
+2016-04-26 19:28:40.945 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:40.978 [7458] check group on site.groupId
+2016-04-26 19:28:40.978 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:41.319 [7458] check group on site.groupId
+2016-04-26 19:28:41.319 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:42.081 [7458] check group on site.groupId
+2016-04-26 19:28:42.081 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:43.422 [7458] queryForManageList, 8 found
+2016-04-26 19:28:45.042 [7458] queryForManageList, 8 found
+2016-04-26 19:28:46.612 [7458] queryForManageList, 8 found
+2016-04-26 19:28:46.794 [7458] queryForManageList, 8 found
+2016-04-26 19:28:47.597 [7458] queryForManageList, 8 found
+2016-04-26 19:28:48.118 [7458] queryForManageList, 8 found
+2016-04-26 19:28:48.184 [7458] queryForManageList, 8 found
+2016-04-26 19:28:48.789 [7458] queryForManageList, 8 found
+2016-04-26 19:28:51.797 [7458] check group on site.groupId
+2016-04-26 19:28:51.797 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:52.819 [7458] page query {"siteId":500,"groupId":1,"page":1,"pageSize":20,"pageStatus":1,"creationType":2,"status":1}, found 20 results, uuid 29d3c578-265f-40ae-987f-e6b97957d415
+2016-04-26 19:28:53.082 [7458] render /sites/500/pages using tpl /Users/kino/lib/views/page/list.xtpl
+2016-04-26 19:28:56.082 [7458] check group on page.groupId
+2016-04-26 19:28:56.082 [7458] check gruoup 1 vs 1
+2016-04-26 19:28:56.514 [7458] render /pages/6654/set using tpl /Users/kino/lib/views/page/set.xtpl
+2016-04-26 19:29:13.692 [7458] queryForManageList, 0 found
+2016-04-26 19:29:51.263 [7480] NODE_ENV = undefined
+2016-04-26 19:29:53.779 [7480] web is up and running in standalone mode
+2016-04-26 19:30:07.099 [7480] queryForManageList, 0 found
+2016-04-26 19:30:09.404 [7480] queryForManageList, 0 found
+2016-04-26 19:30:14.918 [7480] queryForManageList, 1 found
+2016-04-26 19:31:17.300 [7505] NODE_ENV = undefined
+2016-04-26 19:31:19.825 [7505] web is up and running in standalone mode
+2016-04-26 19:31:21.091 [7505] queryForManageList, 0 found
+2016-04-26 19:31:25.821 [7505] queryForManageList, 1 found
+2016-04-26 19:31:36.951 [7505] queryForManageList, 1 found
+2016-04-26 19:31:54.264 [7505] real(6834) page created
+2016-04-26 19:31:54.420 [7505] check group on page.groupId
+2016-04-26 19:31:54.420 [7505] check gruoup 1 vs 1
+2016-04-26 19:31:54.561 [7505] render /pages/6834/design using tpl /Users/kino/lib/views/page/design.xtpl
+2016-04-26 19:31:57.610 [7505] check group on page.groupId
+2016-04-26 19:31:57.610 [7505] check gruoup 1 vs 1
+2016-04-26 19:31:58.505 [7505] render /pages/6834/preview using tpl /Users/kino/lib/views/page/preview.xtpl
+2016-04-26 19:31:59.853 [7505] check group on page.groupId
+2016-04-26 19:31:59.853 [7505] check gruoup 1 vs 1
