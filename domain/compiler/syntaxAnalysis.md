@@ -147,11 +147,11 @@ Define FIRST(α), to be the set of terminals that beging strings derived from α
 
 α is any string  of grammer symbols.
 if α \*=> ε, then ε ∈ FIRST(α),
-if α \*=> cη, then c ∈ FIRST(α)
+if α \*=> cη, c is a terminal, then c ∈ FIRST(α)
 
 ## FOLLOW
 
-Define follow(A), to be the set of terminals a that can appear immediately to the right of A in some sentential form.
+Define follow(A), to be the set of terminals that can appear immediately to the right of A in some sentential form.
 
 A is a nonterminal.
 Such a, exists a derivation of the form S \*=> αAaβ, for some α and β.
@@ -163,3 +163,34 @@ reduction: reducing a string w to the start symbol of the grammer.
 ### handle
 
 If S rm\*=> αAω rm\*=> αβω, then production A -> β in the position following α is a handle of αβω.
+
+### shift-reduce parsing
+
+```
+STACK                       INPUT
+$                              ω$
+
+....
+
+$S                              $
+```
+
+(1) Shift. Shift the next input symbol onto the top of the stack.
+
+(2) Reduce. The right end of the string to be reduced must be at the top of the stack. Locate the left end of the string within the stack and decide with whta nonterminal to replace the string.
+
+(3) Accept. 
+
+(4) Error.
+
+Fact: the handle will always eventually appear on top of the stack, never inside.
+
+### LR parsing
+
+For a grammer to be LR it is sufficient that a left-to-right shift-reduce parser be able to recognize handles of right-sentential forms when they appear on top of the stack.
+
+- viable prefixes
+
+The prefixes of right sentential forms that can appear on the stack of a shift-reduce parser are called viable prefixes.
+
+A viable prefix is a prefix of a right-sentential form that does not continue past the right end of the rightmost handle of that sentential form.
