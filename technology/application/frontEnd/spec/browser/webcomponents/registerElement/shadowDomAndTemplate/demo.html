@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo2</title>
+</head>
+<body>
+	<template class="my-element-template">
+		<content select=".special"></content>
+		<content></content>
+	</template>
+	<script>
+		var myElement = document.registerElement("my-element", {
+			prototype: Object.create(HTMLElement.prototype, {
+				createdCallback: {
+					value:function(){
+						// shadow dom
+						var shadow = this.createShadowRoot();
+						var template = document.querySelector(".my-element-template");
+						shadow.appendChild(template.content);
+					}
+				}
+			})
+		});
+	</script>
+	<my-element>
+		<div class="special">special</div>
+		<p>come on!</p>
+    </my-element>
+</body>
+</html>

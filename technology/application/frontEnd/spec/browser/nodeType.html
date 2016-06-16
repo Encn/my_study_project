@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nodename nodeValue nodeType</title>
+</head>
+<body>
+    <div id='test'>haha!<!--this is comment--></div>
+    <script>
+        var testNode = document.getElementById('test');
+        var textNode = testNode.childNodes[0];
+        var commentNode = testNode.childNodes[1];
+        var attr = testNode.attributes[0];
+        console.log(testNode.nodeName, testNode.nodeType, testNode.nodeValue);
+        console.log(textNode.nodeName, textNode.nodeType, textNode.nodeValue);
+        console.log(commentNode.nodeName, commentNode.nodeType, commentNode.nodeValue);
+        console.log(document.nodeName, document.nodeType, document.nodeValue);
+        console.log(attr.nodeName, attr.nodeType, attr.nodeValue);
+    </script> 
+
+    <!--
+        1 - ELEMENT
+        2 - ATTRIBUTE
+        3 - TEXT
+        4 - CDATA
+        5 - ENTITY REFERENCE
+        6 - ENTITY
+        7 - PI (processing instruction)
+        8 - COMMENT
+        9 - DOCUMENT
+        10 - DOCUMENT TYPE
+        11 - DOCUMENT FRAGMENT
+        12 - NOTATION
+    -->
+</body>
+</html>

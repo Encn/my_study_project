@@ -1,0 +1,23 @@
+@-webkit-keyframes myfirst{
+	0% {background-color: red;}
+	25% {background-color: yellow;}
+	50% {background-color: blue;}
+	100% {background-color: green;}
+}
+
+
+html{
+	font-size: 20px;
+}
+
+#ani{
+	width:2.5rem;
+	height:2.5rem;
+	-webkit-animation-name: myfirst;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
